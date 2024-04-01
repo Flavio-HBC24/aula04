@@ -34,7 +34,7 @@ header img {
 
 
 header nav a{
-
+    
     margin: 6.5rem;
     text-decoration: none;
     color: var(--black);
@@ -60,13 +60,18 @@ footer img {
 
 main {
     height: calc(100vh - 6rem);
+    
 }
 
-main.index{
-    font-size: 2.2rem;
+
+main.index section img {
+    width: 20%;
 }
 
-main img {
-    margin: 0 15.0rem;
-    height: 45rem;
+
+main.index article img {
+    width: 20%;
 }
+
+
+
