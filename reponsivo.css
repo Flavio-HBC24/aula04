@@ -1,0 +1,32 @@
+@media(max-width: 800px) {
+    main.imagens {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #aside1{
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    main.imagens {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width: 400px) {
+    main.imagens {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    main.imagens section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main.imagens section img {
+        width: 100%;
+    }
+}
